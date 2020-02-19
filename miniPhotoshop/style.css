@@ -1,0 +1,78 @@
+#canvas {
+   position: absolute;
+   background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+   width: 100%;
+   bottom: 0;
+}
+#toolbar{
+   height: 150px;
+   top: 0;
+   left: 0;
+   position: fixed;
+   width: 100%;
+   background: white;
+}
+
+.dropDownMenu{
+   clear: left;
+   margin: 0px 10px;
+   float: right;
+
+}
+.toolBarLeft{
+   margin: 20px;
+   padding: 10px;
+   float: left;
+   border: 3px solid lightseagreen;
+   border-radius: 40%;
+}
+.toolBarLeft2{
+   margin: 100px 20px;
+   padding: 10px;
+   float: right;
+}
+.toolBarRight{
+   margin: 100px 20px;
+   padding: 10px;
+   position: absolute;
+   float: right;
+   width: auto;
+}
+
+.brush {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    
+    background: pink;
+}
+
+.orange{
+   background: orange;
+}
+.yellow{
+   background: yellow;
+}
+.purple{
+   background: purple;
+}
+.black{
+   background: black;
+}
+.blue{
+   background: blue;
+}
+.green{
+   background: green;
+}
+.square-brush-btn {
+   width: 40px;
+   height: 40px;
+   border: none;
+}
+.circle-brush-btn {
+   width: 40px;
+   height: 40px;
+   border: none;
+   border-radius: 50%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>miniPhotoshop</title>
+    
+    <script src="photoshop.js" type="text/javascript"></script>
+    <script src="canvas.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    
+    <canvas id="canvas" width="1200" height="900">
+
+    </canvas>
+    <div id="toolbar">
+        <div class="toolBarLeft">
+            <button id="circleBrush" class="circle-brush-btn"></button>
+            <button id="squareBrush" class="square-brush-btn"></button> 
+        </div>
+       
+        <div class="toolBarLeft2">
+            
+            <input type="range" id="sizeBrush" min="10" max="30" value="10">
+            <a id="brushsizeout"></a>
+        </div>
+        <div class="toolBarRight imageOptions">
+                <button id="darken">Sciemnij</button>
+                <input type="file" id="imageLoader"/>
+        </div>
+        <div class="dropDownMenu">
+            <select id="brushcolor">
+                <option value="orange">Orange</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+                <option value="black">Black</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
